@@ -66,6 +66,34 @@ The model will be evaluated using:
 
 The model is trained in Google Colab using GPU acceleration.
 
+
+## Final Results
+
+### 12-Class Plant Species Classification
+
+- Test Accuracy: 93.40%
+- Test Top-5 Accuracy: 100.00%
+- Macro Precision: 93.38%
+- Macro Recall: 91.94%
+- Macro F1-score: 92.46%
+- Weighted F1-score: 93.18%
+
+### Crop and Weed Decision System
+
+- Binary Accuracy: 98.68%
+- Binary Precision: 98.09%
+- Binary Recall: 97.31%
+- Binary F1-score: 97.70%
+
+The model was trained using 5,539 images from the V2 Plant Seedlings Dataset.
+
+- Training images: 3,876
+- Validation images: 830
+- Test images: 833
+- Model: YOLO11n Classification
+- Framework: PyTorch / Ultralytics
+- Training environment: Google Colab with Tesla T4 GPU
+
 ## Author
 
 Ali İsgandarov  
