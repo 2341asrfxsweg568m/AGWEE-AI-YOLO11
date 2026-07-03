@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Dataset files
+data/
+dataset/images/
+dataset/train/
+dataset/val/
+dataset/test/
+*.zip
+
+# YOLO training outputs
+runs/
+wandb/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
